@@ -6,50 +6,63 @@
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <main>
+    <!--navbar-->
     <nav>
       <ul>
         <li>
           <a href="#">home</a>
+        </li>
+        <li>
           <a href="#about">about</a>
+          </li>
+          <li>
           <a href="#work">work</a>
+          </li>
+          <li>
           <a href="#resume">resume</a>
+          </li>
+          <li>
           <a href="#contact">contact</a>
         </li>
       </ul>
     </nav>
-    <h1>Portfolio</h1>
-    <h2 id="about">About</h2>
-    <li>
-      Hey there my name is john gituki welcome to my portfolio here you will get
-      to know me well in terms of my profession
-    </li>
-    <h3 id="work">Work</h3>
-    <li>I'm a student, pursuing software development in GOMYCODE academy</li>
-    <h4 id="resume">Resume</h4>
-    <li>I have a background in ICT</li>
-    <h5 id="contact">Contact</h5>
-    <form>
-      <label for="name">Enter Name</label>
-      <input type="text" name="john" placeholder="" />
-      <label for="email">Enter Email</label>
-      <input type="text" name="email" placeholder="" />
-      <label for="messages">Enter Message</label>
-      <input type="text" name="message" placeholder="" />
-      <br />
-      <button type="submit">submit</button>
-      <br />
-    </form>
+    <main>
+    <!--about section-->
+    <section id="about">
+      <h1>About Me</h1>
+      <div>
+        <p>Hey there! my name is John Gituki welcome to my portfolio here you will get to know me well in terms of my profession</p>
+      </div>
+      <img src="Assets\image\john.jpg" alt="medium">
+      <video src="Assets\video\kids.mp4"></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zX548jRlFCo?si=V879rtVOETtYw7eJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <!--work section-->
+    <section id="work"></section>
+    <h2>Work</h2>
+    <P>I'm a student, pursuing software development in GOMYCODE academy</P>
+    <!--resume-->
+    <section id="resume"></section>
+    <h3>Resume</h3>
+    <p>I have a background in ICT</p>
+    <!--contact section-->
+    <section id="contact"></section>
+    <h4>Contact</h4>
+   </main>
+   <form>
+    <label for="name">Enter Name</label>
+    <input type="text" name="" placeholder="" />
+    <label for="email">Enter Email</label>
+    <input type="text" name="" placeholder="" />
+    <label for="messages">Enter Message</label>
+    <textarea name="message" id="message"></textarea>
     <br />
-    <img src="john.jpg" alt="" />
-    <br />
-    <title>Audio tag</title>
-    <audio controls>
-      <source src="intensity-by-audio-club-343637.mp3" type="audio/mp3" />
-    </audio>
-    <br />
-    <footer>
-      <p>My Portfolio</p>
-    </footer>
-  </body>
+    <button type="submit">Send Message</button>
+   </form>
+   <br>
+   <footer>
+    <p>Copywrite@2025 john gituki</p>
+  </footer>
+</body>
 </html>
