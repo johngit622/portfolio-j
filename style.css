@@ -49,3 +49,11 @@ footer {
   text-align: center;
   justify-content: center;
 }
+
+body {
+  background-color: bisque;
+}
+
+section {
+  background-color: blueviolet !important;
+}
